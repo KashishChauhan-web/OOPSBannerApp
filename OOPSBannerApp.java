@@ -2,9 +2,8 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // String array to store banner lines
+        // Inline array declaration and initialization
         String[] banner = {
-
             String.join(" ", " ***** ", " ***** ", " ****** ", " ***** "),
             String.join(" ", "*     *", "*     *", "*     *", "*     *"),
             String.join(" ", "*     *", "*     *", "*     *", "*      "),
@@ -12,7 +11,6 @@ public class OOPSBannerApp {
             String.join(" ", "*     *", "*     *", "*      ", "      *"),
             String.join(" ", "*     *", "*     *", "*      ", "*     *"),
             String.join(" ", " ***** ", " ***** ", "*      ", " ***** ")
-
         };
 
         // Loop to print banner
